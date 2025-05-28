@@ -18,6 +18,6 @@ server.use(/^(?!\/(public|livros|autores|categorias)).*$/, authenticationMiddlew
 server.use(router) //rotas na prota 3000
 
 server.listen(8000, () => {
-  console.log("Edicao direto do VSCode - Boas-vindas a API do AllBooks")
+  console.log("Boas-vindas a API do AllBooks")
   console.log("Acesse essa API em http://localhost:8000")
 })
